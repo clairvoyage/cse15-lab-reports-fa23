@@ -4,13 +4,13 @@
 
 1. When you type `cd` into the terminal without arguments, your working directory is changed to the root directory.
    > The output of this command is not an error because changing your working directory to the root directory is the default action of `cd`.
-    - In the below example, the working directory is `lecture/messages`. When cd is entered without any arguments, the working directory is changed to the root directory.
+    - In the below example, the working directory is `lecture1/messages`. When cd is entered without any arguments (that is, without any text after `cd`), the working directory is changed to the root directory, which is `lecture1`.
 
 ![Image](https://cdn.discordapp.com/attachments/1065014704986128404/1160764165552603206/Untitled.png?ex=6535d8df&is=652363df&hm=ff2adfd09cc95070932620ec410149c2ba0c6b81fb66fa5ab0f6888393623ce4&)
 
 2. When you type `cd` into the terminal with the path to another *directory*, you change your working directory to the one listed in the new pathname.
     > The output of this command is not an error because you successfully changed directories to the one specified by the pathname.
-    - In the below example, the working directory is the root directory. When `cd lecture1/messages` is entered into the terminal, the working directory is  changed to `lecture1/messages`
+    - In the below example, the working directory is the root directory, `lecture1`. When `cd lecture1/messages` is entered into the terminal, the working directory is  changed to `lecture1/messages`.
 
 ![Image](https://cdn.discordapp.com/attachments/1065014704986128404/1160764475465535518/Untitled.png?ex=6535d928&is=65236428&hm=e3628beca654ed421d8391e5959a017092153ef3df8ad2af29df72f83a1e1421&)
 
@@ -36,13 +36,13 @@
 
 2. When you use the command `ls` with the path to a *directory* as an argument, the terminal prints back the filenames of the files in the directory.
     > The output of this command is not an error because listing out the contents of a directory is the intended result of using `ls`.
-    - In the below example, the working directory is `lecture1`, and the terminal lists out the files in `lecture1/messages`.
+    - In the below example, the working directory is `lecture1`, and the terminal lists out the files in `lecture1/messages`. The files in 'lecture1/messages' are: `en-us.txt`, `es-mx.txt`, and `zh-cn.txt`.
 
 ![Image](https://cdn.discordapp.com/attachments/1065014704986128404/1160764849920426165/Untitled.png?ex=6535d982&is=65236482&hm=88c13854602638292e9d0cec6c4d958bfe3aa161dc77e60febd344b381fa1dc8&)
 
 3. When you use the command `ls` with the path to a ****file****, the terminal returns the pathname of that file.
     > The output of this command is not an error because `ls` lists both the contents of directories and details about files.
-    - In the below example, the working directory is `lecture1`, and the terminal returns the pathname of the file.
+    - In the below example, the working directory is `lecture1`, and the terminal returns the pathname of the file `lecture1/Hello.java`.
 
 ![Image](https://cdn.discordapp.com/attachments/1065014704986128404/1160765026777444352/Untitled.png?ex=6535d9ac&is=652364ac&hm=14c5413ff3b5999b18afeae9a930f87edaf68241590fb244f9052f4c76008861&)
 
