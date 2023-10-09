@@ -36,7 +36,7 @@
 
 2. When you use the command `ls` with the path to a *directory* as an argument, the terminal prints back the filenames of the files in the directory.
     > The output of this command is not an error because listing out the contents of a directory is the intended result of using `ls`.
-    - In the below example, the working directory is `lecture1`, and the terminal lists out the files in `lecture1/messages`. The files in 'lecture1/messages' are: `en-us.txt`, `es-mx.txt`, and `zh-cn.txt`.
+    - In the below example, the working directory is `lecture1`, and the terminal lists out the files in `lecture1/messages`. The files in `lecture1/messages` are: `en-us.txt`, `es-mx.txt`, and `zh-cn.txt`.
 
 ![Image](https://cdn.discordapp.com/attachments/1065014704986128404/1160764849920426165/Untitled.png?ex=6535d982&is=65236482&hm=88c13854602638292e9d0cec6c4d958bfe3aa161dc77e60febd344b381fa1dc8&)
 
