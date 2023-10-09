@@ -57,7 +57,7 @@
     ![Image](https://cdn.discordapp.com/attachments/1065014704986128404/1160765117642842182/Untitled.png?ex=6535d9c2&is=652364c2&hm=1fbed95ebf2c1d5a83783b84500b73ca17284cf7f1cd4bf6e38d754568c51dee&)
     
 
-3. When you use the command `cat` with the path to a *************directory************* as the argument, the program will give an error saying that the argument in your command is a directory.
+2. When you use the command `cat` with the path to a *************directory************* as the argument, the program will give an error saying that the argument in your command is a directory.
     > The output of this command is an error because `cat` is mainly used to read and/or write files, not directories.
     - In the below example, the working directory is `lecture1`, and the terminal sees that the argument `lecture1/messages` is a directory and gives an error.
 
