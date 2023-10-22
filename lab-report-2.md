@@ -85,11 +85,11 @@ How do the values of any relevant fields of the class change from this specific 
 ## Part 2
 
 ### Path to private key:
-The private key is id_rsa, located at `/Users/merlin/.ssh/id_rsa`.
-![image](https://media.discordapp.net/attachments/1165737971237011628/1165747403505283233/image.png?ex=6547f9df&is=653584df&hm=0348f77db64416917e5ab7cb7d9a837f945268c8e29c410330d602e865cb1929&=&width=1480&height=142)
+The private key is id_rsa, located at `/Users/merlin/.ssh/id_rsa` in my own computer.
+![image](https://media.discordapp.net/attachments/1165737971237011628/1165747714265448498/image.png?ex=6547fa29&is=65358529&hm=fc17228fa360ed39396ae2835015fcf9f4700420164550aa65c121eed38f4fba&=&width=1480&height=152)
 
 ### Path to public key:
-The public key is id_rsa.pub, located at `~/.ssh/id_rsa.pub`.
+The public key is id_rsa.pub, located at `~/.ssh/id_rsa.pub` in `ieng6`.
 ![image](https://media.discordapp.net/attachments/1165737971237011628/1165747403505283233/image.png?ex=6547f9df&is=653584df&hm=0348f77db64416917e5ab7cb7d9a837f945268c8e29c410330d602e865cb1929&=&width=1480&height=142)
 
 ### Logging into ieng6 without password:
