@@ -98,3 +98,8 @@ The public key is id_rsa.pub, located at `~/.ssh/id_rsa.pub`.
 
 ## Part 3
 
+Something I learned from the Week 3 lab was how to create a local server and edit it. I learned that to make any edits to the handler show up on the server's web page, you have to close the server and compile and run the server files again.
+
+
+
+
