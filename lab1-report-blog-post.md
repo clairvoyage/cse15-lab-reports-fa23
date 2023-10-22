@@ -54,7 +54,7 @@ cannot be done because `Hello.java` is not a directory.
    > The output of this command is not an error because copying the standard input to output is one of the intended uses of `cat`.
    - In the below example, the working directory is the home directory, and the terminal copies your input `kjhkjh` into the standard output.
     
-    ![Image](https://cdn.discordapp.com/attachments/1065014704986128404/1160765117642842182/Untitled.png?ex=6535d9c2&is=652364c2&hm=1fbed95ebf2c1d5a83783b84500b73ca17284cf7f1cd4bf6e38d754568c51dee&)
+![Image](https://cdn.discordapp.com/attachments/1065014704986128404/1160765117642842182/Untitled.png?ex=6535d9c2&is=652364c2&hm=1fbed95ebf2c1d5a83783b84500b73ca17284cf7f1cd4bf6e38d754568c51dee&)
     
 
 2: When you use the command `cat` with the path to a **directory** as the argument, the program will give an error saying that the argument in your command is a directory.
