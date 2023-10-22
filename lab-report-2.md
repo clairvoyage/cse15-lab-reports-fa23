@@ -85,12 +85,12 @@ How do the values of any relevant fields of the class change from this specific 
 ## Part 2
 
 ### Path to private key:
-
-![image](https://media.discordapp.net/attachments/1165737971237011628/1165738172462923837/Untitled.png?ex=6547f146&is=65357c46&hm=bbf96dff5ea3bdc2e2f0b3eee9fd69b37141804ebabed18082381d2a1714285d&=&width=905&height=212)
+The private key is id_rsa, located at `/Users/merlin/.ssh/id_rsa`.
+![image](https://media.discordapp.net/attachments/1165737971237011628/1165747403505283233/image.png?ex=6547f9df&is=653584df&hm=0348f77db64416917e5ab7cb7d9a837f945268c8e29c410330d602e865cb1929&=&width=1480&height=142)
 
 ### Path to public key:
-(fix later plz)
-![image](https://media.discordapp.net/attachments/1165737971237011628/1165738172462923837/Untitled.png?ex=6547f146&is=65357c46&hm=bbf96dff5ea3bdc2e2f0b3eee9fd69b37141804ebabed18082381d2a1714285d&=&width=905&height=212)
+The public key is id_rsa.pub, located at `~/.ssh/id_rsa.pub`.
+![image](https://media.discordapp.net/attachments/1165737971237011628/1165747403505283233/image.png?ex=6547f9df&is=653584df&hm=0348f77db64416917e5ab7cb7d9a837f945268c8e29c410330d602e865cb1929&=&width=1480&height=142)
 
 ### Logging into ieng6 without password:
 
