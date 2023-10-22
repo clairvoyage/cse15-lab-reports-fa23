@@ -1,4 +1,6 @@
-code:
+# **Lab Report 2: Blog post**
+## Part 1
+### Code:
 
 ```java
 // Authors: Joe Gibbs Politz and Merlin Ho
@@ -42,7 +44,7 @@ class StringServer {
 }
 ```
 
-### screenshot 1:
+### Screenshot 1:
 
 Which methods in your code are called?
 
@@ -55,13 +57,13 @@ What are the relevant arguments to those methods, and the values of any relevant
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-- URI url changes when /add-message is added to the end of the url.
+- URI url changes when /add-message is added to the end of the url. Here, `add-message?s=Hello` was added.
 - By default, String str = "Try typing '/add-message?s=' and your own message after the address and see what happens!" After doing the add-message request, the message String is appended to String str. In this example, the String “Hello” is appended to str.
-- int strCount is incremented to show the current number of the message.
+- int strCount is incremented to show the current number of the message. In this case, `strCount = 0` incremented to `strCount = 1`.
 
-![Screenshot 2023-10-21 at 15.26.54.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/52907341-036d-4dee-8616-6ffddef6bdad/dacb665a-47f0-47bc-ab10-14fc6b517997/Screenshot_2023-10-21_at_15.26.54.png)
+![image](https://media.discordapp.net/attachments/1165737971237011628/1165738113902071938/Screenshot_2023-10-21_at_15.png?ex=6547f138&is=65357c38&hm=17b23587ecf0ae1afb5f491d948efce1ae18afcaf01116f56ac1d3ee783998a8&=&width=1480&height=832)
 
-### screenshot 2
+### Screenshot 2
 
 Which methods in your code are called?
 
@@ -74,34 +76,25 @@ What are the relevant arguments to those methods, and the values of any relevant
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-- URI url changes when /add-message is added to the end of the url.
-- By default, String str = "Try typing '/add-message?s=' and your own message after the address and see what happens!" After doing the add-message request, the message String is appended to String str. In this example, the String “Hello” is appended to str.
-- int strCount is incremented to show the current number of the message.
+- URI url changes when /add-message is added to the end of the url. In this case, `/add-message?s="How are you?"` is added to the url.
+- By default, String str = "Try typing '/add-message?s=' and your own message after the address and see what happens!" After doing the add-message request, the message String is appended to String str. In this example, the String “How are you?” is appended to str.
+- int strCount is incremented to show the current number of the message. It went from `strCount = 1` to `strCount = 2`.
 
-![Screenshot 2023-10-21 at 15.27.37.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/52907341-036d-4dee-8616-6ffddef6bdad/365efacd-cd1a-4d32-b442-de2d017d597e/Screenshot_2023-10-21_at_15.27.37.png)
+![image](https://media.discordapp.net/attachments/1165737971237011628/1165738146709901403/Screenshot_2023-10-21_at_15.png?ex=6547f140&is=65357c40&hm=484dcdd50ccab0af1358bcd928874db486f69ecc1b84c48471fdd09ba76e6f31&=&width=1480&height=832)
 
-im suffering
+## Part 2
 
-/.ssh/authorized_keys
+### Path to private key:
 
-jesus that took way more effort than i wanted it to
+![image](https://media.discordapp.net/attachments/1165737971237011628/1165738172462923837/Untitled.png?ex=6547f146&is=65357c46&hm=bbf96dff5ea3bdc2e2f0b3eee9fd69b37141804ebabed18082381d2a1714285d&=&width=905&height=212)
 
-basically in the instructions for the lab they give you the path the path to the public and private key already and you can just cd to there 😟
+### Path to public key:
+(fix later plz)
+![image](https://media.discordapp.net/attachments/1165737971237011628/1165738172462923837/Untitled.png?ex=6547f146&is=65357c46&hm=bbf96dff5ea3bdc2e2f0b3eee9fd69b37141804ebabed18082381d2a1714285d&=&width=905&height=212)
 
-# part 2
+### Logging into ieng6 without password:
 
-path to private key:
+![image](https://media.discordapp.net/attachments/1165737971237011628/1165738215957872670/Untitled.png?ex=6547f151&is=65357c51&hm=afc0802aad10788c86e35bc44e4aa82dfb2f527681bad240e41f72cb02514230&=&width=1480&height=660)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/52907341-036d-4dee-8616-6ffddef6bdad/01bb2938-9083-4f54-93db-c2c7e6d71efd/Untitled.png)
+## Part 3
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/52907341-036d-4dee-8616-6ffddef6bdad/0bcc0388-f1e2-4905-b4b8-5d6add51d870/Untitled.png)
-
-path to public key:
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/52907341-036d-4dee-8616-6ffddef6bdad/0606cb8a-f4a9-47a6-9168-d716ba821aa0/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/52907341-036d-4dee-8616-6ffddef6bdad/fa1f19c1-5c2a-4352-97a6-8bd9d5e86297/Untitled.png)
-
-logging into ieng6 without password:
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/52907341-036d-4dee-8616-6ffddef6bdad/26da12dd-ec02-4812-97c5-09292c69606e/Untitled.png)
